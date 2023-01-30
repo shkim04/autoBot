@@ -1,0 +1,26 @@
+{
+  "name": "tradingBot",
+  "version": "1.0.0",
+  "description": "cool app",
+  "main": "bot.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "restart": "pm2 restart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js",
+    "dev": "ts-node bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "big.js": "^6.1.1",
+    "binance-api-node": "^0.11.31",
+    "dotenv": "^11.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/big.js": "^6.1.2"
+  }
+}
